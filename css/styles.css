@@ -1,0 +1,46 @@
+body{
+    background-color: #F5F7FA ;
+    font-family: 'Montserrat','Arial';
+}
+li{
+    line-height: 24px;
+}
+
+.contenedor-principal{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.primer-elemento-lista{
+    background-color: yellow;
+
+}
+.descripcion{
+    background-color: #a1b4d1;
+    margin-bottom: 40px;
+}
+
+.descripcion-profesion {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.proyectos{
+    background-color: #acd1a1;
+}
+
+.experiencia-laboral{
+    background-color: #a1d1c0;
+}
+
+.educuacion{
+    background-color: #a2a1d1;
+}
+
+.informacion-lateral{
+    background-color: #1E2939;
+}
+
