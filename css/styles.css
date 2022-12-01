@@ -6,23 +6,31 @@ li{
     line-height: 24px;
 }
 
+
+/*--------------------*/
+/*Contenido principal*/
+/*------------------*/
 .contenedor-principal{
     display: flex;
     flex-direction: row-reverse;
     background-color: white;
     width: 1200px;
     margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
+
 /*--------------------*/
 /*Información General*/
 /*------------------*/
 
 .informacion-general{
     padding: 100px 88px;
-
 }
 
+/*------------*/
 /*Descripción*/
+/*----------*/
+
 .nombre{
     font-style: normal;
     font-weight: 700;
@@ -55,7 +63,6 @@ li{
     font-size: 22px;
     line-height: 27px;
     margin-top: 45px;
-
 }
 
 .texto-naranja{
@@ -93,9 +100,9 @@ li{
     color: #595959;
 }
 
-/*-------------------------------*/
-/* Seccion experiencia laboral  */
 /*-----------------------------*/
+/* Seccion experiencia laboral*/
+/*---------------------------*/
 
 .puesto-empresa{
     font-style: normal;
@@ -132,10 +139,16 @@ li{
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    margin-top: 15px;
-    margin-bottom:11px;
+    margin: 0;
 }
 
+.titulo-educativo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 10px 0;
+}
 .periodo-estudio{
     font-style: normal;
     font-weight: 400;
@@ -150,7 +163,7 @@ li{
 
 .informacion-lateral{
     background-color: #1E2939;
-    padding: 40px 0;
+    padding: 40px;
 }
 
 
@@ -172,8 +185,6 @@ li{
 /*-------------------*/
 /* Seccion contactos*/
 /*-----------------*/
-
-
 .tipo-contacto{
     color: white;
     font-style: normal;
